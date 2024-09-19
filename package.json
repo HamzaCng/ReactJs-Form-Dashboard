@@ -1,0 +1,63 @@
+{
+  "name": "hr-cv-pool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.24.9",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@faker-js/faker": "^9.0.1",
+    "@iconify/react": "^5.0.2",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@mui/styles": "^6.1.1",
+    "@mui/x-charts": "^7.17.0",
+    "@mui/x-date-pickers": "^7.6.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "framer-motion": "^11.2.10",
+    "i18n": "^0.15.1",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "i18next-http-backend": "^2.5.1",
+    "numeral": "^2.0.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-drag-drop-files": "^2.3.10",
+    "react-google-button": "^0.8.0",
+    "react-i18next": "^14.1.1",
+    "react-lottie": "^1.2.4",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.93.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
