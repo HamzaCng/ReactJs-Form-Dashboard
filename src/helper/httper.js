@@ -5,7 +5,7 @@ export default function Httper(method, url, data = {}, headers = {}) {
     return (
         api({ method, url, data, headers })
             .then(function (response) {
-                // console.log(response)  
+                
                 // toast.success(response?.data?.message);       
                 return response?.data
             })

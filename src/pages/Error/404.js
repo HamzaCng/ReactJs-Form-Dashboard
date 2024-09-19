@@ -15,7 +15,7 @@ const defaultOptions = {
 };
 
 
-const webCss = { width: '100vh', alignSelf: 'center', justifySelf: 'center', marginLeft: window.innerWidth / 8 };
+const webCss = { width: '100vh', alignSelf: 'center', justifySelf: 'center', marginLeft: window.innerWidth / 4 };
 const mobileCss = { marginTop: window.innerHeight / 4}
 
 const NotFound = () => {

@@ -21,7 +21,7 @@ import InterestsIcon from '@mui/icons-material/Interests';
 import FeedIcon from '@mui/icons-material/Feed';
 
 export default function Index() {
-    const [open, setOpen] = React.useState(true);
+    const [open, setOpen] = React.useState(false);
 
     const toggleDrawer = () => {
         setOpen(!open);

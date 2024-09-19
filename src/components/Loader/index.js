@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'react-lottie';
-import ZekatLoader from '../../assets/zekat-loader.json';
+import ZekatLoader from '../../assets/loader.json';
 
 const defaultOptions = {
   loop: true,
