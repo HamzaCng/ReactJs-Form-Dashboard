@@ -29,6 +29,16 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+### `npm run storybook`
+
+Starts the component library locally at [http://localhost:6006](http://localhost:6006).
+Storybook uses the application's Material UI theme, and component stories live next to
+their components as `*.stories.js` files.
+
+### `npm run build-storybook`
+
+Builds the static Storybook site in the `storybook-static` directory.
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
